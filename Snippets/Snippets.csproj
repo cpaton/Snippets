@@ -47,6 +47,12 @@
     <Compile Include="Specification\OrSpecification.cs" />
     <Compile Include="Specification\Specification.cs" />
     <Compile Include="Specification\SpecificationExample.cs" />
+    <Compile Include="Threading\Actions\ActionBase.cs" />
+    <Compile Include="Threading\Actions\ActionBaseExtensions.cs" />
+    <Compile Include="Threading\Actions\ActionManager.cs" />
+    <Compile Include="Threading\Actions\CompositeAction.cs" />
+    <Compile Include="Threading\Actions\SampleAction.cs" />
+    <Compile Include="Threading\Actions\SampleService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
